@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:tut_e_commerce_app/presentation/color_manager.dart';
-import 'package:tut_e_commerce_app/presentation/style_manager.dart';
-import 'package:tut_e_commerce_app/presentation/values_manager.dart';
+import 'package:tut_e_commerce_app/presentation/resources/color_manager.dart';
+import 'package:tut_e_commerce_app/presentation/resources/style_manager.dart';
+import 'package:tut_e_commerce_app/presentation/resources/values_manager.dart';
 import 'font_manager.dart';
 
 ThemeData getApplicationTheme() {

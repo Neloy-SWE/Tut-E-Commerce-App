@@ -20,6 +20,8 @@ extension HexColor on Color {
     if (hex.length == 6) {
       hex = "FF$hex";
     }
-    return Color(int.parse(hex, radix: 16),);
+    return Color(
+      int.parse(hex, radix: 16),
+    );
   }
 }
