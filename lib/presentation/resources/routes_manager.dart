@@ -4,6 +4,7 @@ import 'package:tut_e_commerce_app/presentation/login/login.dart';
 import 'package:tut_e_commerce_app/presentation/main/main_view.dart';
 import 'package:tut_e_commerce_app/presentation/onboarding/onboarding.dart';
 import 'package:tut_e_commerce_app/presentation/register/register.dart';
+import 'package:tut_e_commerce_app/presentation/resources/string_manager.dart';
 import 'package:tut_e_commerce_app/presentation/splash/splash.dart';
 import 'package:tut_e_commerce_app/presentation/store_details/store_details.dart';
 
@@ -49,18 +50,18 @@ class RouteGenerator {
           builder: (builder) => const StoreDetailsView(),
         );
       default:
-        return UndefineRoute();
+        return undefineRoute();
     }
   }
 
-  static Route<dynamic> UndefineRoute() {
+  static Route<dynamic> undefineRoute() {
     return MaterialPageRoute(
       builder: (builder) => Scaffold(
         appBar: AppBar(
-          title: const Text("No Page Found"),
+          title: const Text(AppStrings.noRouteFound,),
         ),
         body: const Center(
-          child: Text("No Page Found"),
+          child: Text(AppStrings.noRouteFound,),
         ),
       ),
     );
