@@ -25,3 +25,9 @@ class Authentication{
   Contacts? contacts;
   Authentication(this.customer, this.contacts);
 }
+class DeviceInfo{
+  String name;
+  String indentifier;
+  String version;
+  DeviceInfo(this.name, this.indentifier, this.version);
+}
