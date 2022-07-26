@@ -1,6 +1,6 @@
 import 'dart:async';
 
-import 'package:tut_e_commerce_app/domain/model.dart';
+import 'package:tut_e_commerce_app/domain/model/model.dart';
 import 'package:tut_e_commerce_app/presentation/base/base_view_model.dart';
 
 import '../resources/assets_manager.dart';

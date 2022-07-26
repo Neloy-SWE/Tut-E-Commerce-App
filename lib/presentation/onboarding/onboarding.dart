@@ -8,7 +8,7 @@ import 'package:tut_e_commerce_app/presentation/resources/routes_manager.dart';
 import 'package:tut_e_commerce_app/presentation/resources/string_manager.dart';
 import 'package:tut_e_commerce_app/presentation/resources/values_manager.dart';
 
-import '../../domain/model.dart';
+import '../../domain/model/model.dart';
 
 class OnBoardingView extends StatefulWidget {
   const OnBoardingView({Key? key}) : super(key: key);

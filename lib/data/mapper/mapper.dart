@@ -1,6 +1,6 @@
 import 'package:tut_e_commerce_app/app/extensions.dart';
 import 'package:tut_e_commerce_app/data/responses/responses.dart';
-import 'package:tut_e_commerce_app/domain/model.dart';
+import 'package:tut_e_commerce_app/domain/model/model.dart';
 
 const EMPTY = "";
 const ZERO = 0;

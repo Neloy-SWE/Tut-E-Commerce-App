@@ -5,8 +5,8 @@ import 'package:tut_e_commerce_app/data/network/error_handler.dart';
 import 'package:tut_e_commerce_app/data/network/failure.dart';
 import 'package:tut_e_commerce_app/data/network/network_info.dart';
 import 'package:tut_e_commerce_app/data/request/request.dart';
-import 'package:tut_e_commerce_app/domain/model.dart';
-import 'package:tut_e_commerce_app/domain/repository.dart';
+import 'package:tut_e_commerce_app/domain/model/model.dart';
+import '../../domain/repository/repository.dart';
 
 class RepositoryImpl extends Repository {
   RemoteDataSource _remoteDataSource;
