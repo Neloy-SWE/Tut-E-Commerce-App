@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/svg.dart';
 import 'package:tut_e_commerce_app/app/di.dart';
 import 'package:tut_e_commerce_app/presentation/login/login_viewmodel.dart';
 import 'package:tut_e_commerce_app/presentation/resources/string_manager.dart';
